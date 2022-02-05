@@ -36,9 +36,9 @@ void PrintPoint(Point p) {
 
 // This is new
 void PrintLine(Line l) {
-    cout << "  Start";
+    cout << "\tStart";
     PrintPoint(l.start);
-    cout << "   End";
+    cout << "\tEnd";
     PrintPoint(l.end); 
     cout << endl;
 }
@@ -52,6 +52,7 @@ int main() {
     cout << "Line b";
     PrintLine(b);
     a.start.x = b.start.x * -1;
+    a.start.x=30;
     a.start.y = b.start.y * -1;
     a.end.x = b.end.x * -1;
     a.end.y = b.end.y * -1;

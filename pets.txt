@@ -1,0 +1,5 @@
+Misty;13
+Spot;59
+Lassie;76
+Bonzo the Dog;99
+Curious George;80

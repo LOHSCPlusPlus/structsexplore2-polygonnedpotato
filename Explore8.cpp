@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 struct Point {
@@ -70,6 +69,9 @@ int main() {
     cout<<"\nLine a's lowest point";
     PrintPoint(FindLowestPoint(a));
     cout << endl;
+    Line b(Point(7,-9), Point(8,-15));
+    PrintPoint(FindLowestPoint(b));
+    cout<<endl;
     return 0;
 }
 
